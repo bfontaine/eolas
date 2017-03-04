@@ -82,3 +82,5 @@ The ``=`` operator is right-associative, so you can write code like this::
 Variables may contain spaces and evaluate to their string representation if
 they’re not set. There is no other way to write strings, and as such empty
 strings can’t be written.
+
+Negative integers are not supported.
