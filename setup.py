@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 
+import setuptools
 from distutils.core import setup
 
 # http://stackoverflow.com/a/7071358/735926
@@ -22,7 +23,7 @@ setup(
     url='https://github.com/bfontaine/eolas',
     license=open('LICENSE', 'r').read(),
     description='Eolas interpreter',
-    long_description=open('README.md', 'r').read(),
+    long_description=open('README.rst', 'r').read(),
     install_requires=[
         'appdirs==1.4.2',
         'packaging==16.8',
