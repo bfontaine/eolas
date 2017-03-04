@@ -27,7 +27,7 @@ Run
 
 Run ``eolas --help`` to see all options. The interpreter reads from ``STDIN``
 unless you give it a filename. You may also evaluate short programs using
-``--eval <your code>``.
+``--eval "<your code>"``.
 
 You can set the original memory using ``--set name=value``. Compare the results
 when the interpreter is run on the original program::
@@ -50,7 +50,7 @@ The original code block::
     return 0;
     }
 
-In **Eolas**, a program is a suit of instructions wrapped in curly brackets.
+In **Eolas**, a program is a suite of instructions wrapped in curly brackets.
 
 Instructions
 ~~~~~~~~~~~~
